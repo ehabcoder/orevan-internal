@@ -1,0 +1,150 @@
+.forgotButton {
+  text-decoration: none;
+}
+
+.loginPage img {
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+}
+.loginContainer {
+  height: auto;
+  background-color: white;
+}
+
+.navbarContainer {
+  background-color: black;
+  padding: 20px;
+}
+.navbar-brand img {
+  margin-right: auto;
+  padding-left: 70px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item {
+  font-size: 25px;
+  padding-right: 70px;
+  font-weight: bold;
+}
+.nav-item a {
+  color: #f8e46f !important;
+  margin-left: auto !important;
+}
+
+.communicationContainer {
+  background-color: white;
+  height: 100vh;
+}
+.titleCommunication {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 85px;
+  margin-bottom: 30px;
+}
+
+.centered-container {
+  display: flex;
+  align-items: center; /* Vertically center the container */
+  justify-content: center;
+  height: 500px;
+  border-radius: 25px;
+  width: 45%;
+  margin: auto;
+}
+.iconContainer {
+  padding-left: 2rem !important;
+}
+.iconImage {
+  border: 2px solid #892959;
+  width: 142px;
+  height: 156px;
+  border-radius: 26px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconImage img {
+  width: 80% !important;
+  padding: 10px;
+}
+.box {
+  border-radius: 18px;
+  padding-left: 7rem !important;
+  padding: 40px 0 40px 0;
+}
+/* .homeTitles {
+  text-align: center;
+  border: 2px solid white;
+  background-color: #948af4;
+  padding: 30px;
+  margin: auto;
+  border-radius: 15px;
+  color: white;
+} */
+/* .homeTitles a {
+  text-decoration: none;
+  color: white;
+}
+.homeTitles h2:hover {
+  color: #892959;
+} */
+/* .formContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 70px;
+} */
+
+/* .homeTitles a {
+  background-color: #948af4;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+} */
+
+@media screen and (max-width: 600px) {
+  /* .loginPage {
+    display: none;
+  } */
+  .title {
+    padding-top: 100px;
+  }
+  .formContainer {
+    background-color: white;
+    margin-bottom: 240px;
+  }
+  /* .left {
+    display: none;
+    width: 100%;
+  } */
+  .app {
+    flex-wrap: wrap;
+  }
+
+  .left img {
+    display: none;
+  }
+  .right {
+    width: 300px;
+  }
+  .homeTitles h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+  .homeTitles {
+    margin-top: 20px;
+  }
+  .footerTitle {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 22px;
+  }
+}
